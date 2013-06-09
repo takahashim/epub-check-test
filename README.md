@@ -40,3 +40,27 @@ files and error messages
 - epubsample030.epub : (Version not found??)
 - epubsample031.epub : unique-identifier attribute in package element must reference an existing identifier element id
 - epubsample032.epub : character content of element "dc:identifier" invalid; must be a string with length at least 1 (actual length was 0)
+- epubsample033.epub : assertion failed: package dcterms:modified meta element must occur exactly once
+- epubsample034.epub : assertion failed: dcterms:modified illegal syntax (expecting: 'CCYY-MM-DDThh:mm:ssZ')
+- epubsample035.epub : assertion failed: @refines missing target id: 'creator02'
+- epubsample036.epub : OPS/XHTML file OPS/chapter_002.xhtml is missing
+- epubsample037.epub : item (OPS/chapter_002.xhtml) exists in the zip file, but is not declared in the OPF file
+- epubsample038.epub : Only audio and video remote resources are permitted
+- epubsample039.epub : Item property: cover-image is not defined for media type: text/css
+- epubsample040.epub : This file should declare in opf the property: scripted
+- epubsample041.epub : assertion failed: Exactly one manifest item must declare the 'nav' property (number of 'nav' items: 2).
+- epubsample042.epub : assertion failed: Multiple occurrences of the 'cover-image' property (number of 'cover-image' items: 2).
+- epubsample043.epub : Object type and the item media-type declared in manifest, do not match
+- epubsample044.epub : assertion failed: manifest item element fallback attribute must resolve to another manifest item (given reference was 'foo') (+ "fallback item could not be found"???)
+- epubsample045.epub : Spine item with non-standard media-type 'text/css' with no fallback
+- epubsample046.epub : Spine item with non-standard media-type 'image/png' with fallback to non-spine-allowed media-type
+- epubsample047.epub : circular reference in fallback chain
+- epubsample048.epub : assertion failed: media overlay items must be of the 'application/smil+xml' type (given type was 'image/png')
+
+
+
+LICENSES
+--------
+The base EPUB file epubsample000.epub is derived from moby-dick (https://code.google.com/p/epub-samples/wiki/SamplesListing#moby-dick), so the license of EPUB files in this repository are CC BY-SA 3.0.
+
+poignant-guide_chapter-1-introducing.mp3 (in epubsample049) is from "THE SOUNDTRACK TO why's (poignant) guide to ruby" (http://mislav.uniqpath.com/poignant-guide/soundtrack/). The license of this file is CC BY-SA 2.5. (http://creativecommons.org/licenses/by-sa/2.5/)

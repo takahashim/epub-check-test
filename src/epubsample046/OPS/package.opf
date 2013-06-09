@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">epub sample 000</dc:title>
+    <meta refines="#title" property="title-type">main</meta>
+    <dc:creator id="creator">Masayoshi Takahashi</dc:creator>
+    <meta refines="#creator" property="file-as">TAKAHASHI, MASAYOSHI</meta>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+    <dc:identifier id="pub-id">http://tatsu-zine.com/books/epub-sample-000</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2013-06-09T00:00:00Z</meta>
+    <dc:publisher>Tatsu-zine Publishing Inc.</dc:publisher>
+    <dc:rights>This work is shared with the public using the Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.</dc:rights>
+    <link rel="cc:license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="image" href="images/sample-image.png" fallback="style" media-type="image/png"/>
+    <item id="style" href="css/stylesheet.css" media-type="text/css"/>
+    <item id="ch_001" href="chapter_001.xhtml" fallback="style" media-type="application/xhtml+xml"/>
+    <!-- 
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+ -->
+
+  </manifest>
+  <spine>
+    <itemref idref="cover" linear="no"/>
+    <itemref linear="yes" idref="ch_001"/>
+    <itemref idref="toc" linear="no"/>
+    <itemref idref="image" linear="no"/>
+  </spine>
+</package>
