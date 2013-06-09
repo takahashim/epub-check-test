@@ -22,7 +22,7 @@ files and error messages
 - epubsample012.epub : The value of attribute "id" associated with an element type "p" must notcontain the '<' character
 - epubsample013.epub : Only UTF-8 and UTF-16 encodings are allowed, detected SHIFT_JIS
 - epubsample014.epub : ???
-- epubsample015.epub : ???
+- epubsample015.epub : (I/O error reading OPS/chapter_001.xhtml: Invalid byte 1 of 1-byte UTF-8 sequence.)
 - epubsample016.epub : Any Publication Resource that is an XML-Based Media Type must be a conformant XML 1.0 Document. XML Version retrieved: 1.1
 - epubsample017.epub : 'OPS/css/stylesheet000.css': referenced resource missing in the package.
 - epubsample018.epub : 'foo': fragment identifier is not defined in 'OPS/chapter_001.xhtml'
@@ -37,7 +37,7 @@ files and error messages
 - epubsample027.epub : Mimetype file should contain only the string "application/epub+zip".
 - epubsample028.epub : Required META-INF/container.xml resource is missing
 - epubsample029.epub : No rootfile with media type 'application/oebps-package+xml'
-- epubsample030.epub : (Version not found??)
+- epubsample030.epub : (Version not found???)
 - epubsample031.epub : unique-identifier attribute in package element must reference an existing identifier element id
 - epubsample032.epub : character content of element "dc:identifier" invalid; must be a string with length at least 1 (actual length was 0)
 - epubsample033.epub : assertion failed: package dcterms:modified meta element must occur exactly once
