@@ -4,10 +4,10 @@ epub-check-test
 *invalid* epub documents to test epub validator conformance.
 
 
-files
------
+files and error messages
+------------------------
 
-- epubsample000.epub : valid
+- epubsample000.epub : (valid)
 - epubsample001.epub : Content is not allowed in prolog
 - epubsample002.epub : Content is not allowed in trailing section
 - epubsample003.epub : element "h2" not allowed here; expected the element ...
