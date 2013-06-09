@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns#">
-  <metadata>
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:title id="title">epub sample 000</dc:title>
     <meta refines="#title" property="title-type">main</meta>
     <dc:creator id="creator">Masayoshi Takahashi</dc:creator>
@@ -28,4 +28,5 @@
     <itemref linear="yes" idref="ch_001"/>
     <itemref idref="toc" linear="no"/>
   </spine>
+  <foo:elem>dummy</foo:elem>
 </package>
