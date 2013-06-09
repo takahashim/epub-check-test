@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+    <body>
+        <seq id="id1" epub:textref="chapter_001.xhtml" epub:type="bodymatter chapter">
+
+            <par id="heading1">
+                <text src="chapter_001.xhtml#c01h01"/>
+                <audio src="audio/poignant-guide_chapter-1-introducing.mp3" clipBegin="0:00:00" clipEnd="0:00:20"/>
+            </par>
+
+            <par id="word1">
+                <text src="chapter_001.xhtml#c01w01"/>
+                <audio src="audio/poignant-guide_chapter-1-introducing.mp3" clipBegin="0:00:20" clipEnd="0:00:40"/>
+            </par>
+        </seq>
+    </body>
+</smil>

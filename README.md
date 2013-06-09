@@ -56,6 +56,17 @@ files and error messages
 - epubsample046.epub : Spine item with non-standard media-type 'image/png' with fallback to non-spine-allowed media-type
 - epubsample047.epub : circular reference in fallback chain
 - epubsample048.epub : assertion failed: media overlay items must be of the 'application/smil+xml' type (given type was 'image/png')
+- epubsample049.epub : assertion failed: item media:duration meta element not set (expecting: meta property='media:duration' refines='#ch_001_audio')
+- epubsample050.epub : assertion failed: global media:duration meta element not set
+- epubsample051.epub : toc attribute references resource with non-NCX mime type; "application/x-dtbncx+xml" is expected / assertion failed: spine element toc attribute must reference the NCX manifest item (referenced media type was 'application/xml')
+- epubsample052.epub : assertion failed: spine element toc attribute must be set when an NCX is included in the publication
+- epubsample053.epub : assertion failed: The lang and xml:lang attributes must have the same value.
+- epubsample054.epub : assertion failed: There must not be more than one meta element with a charset attribute per document.
+- epubsample055.epub : assertion failed: The sizes attribute must not be specified on link elements that do not have a rel attribute that specifies the icon keyword.
+- epubsample056.epub : assertion failed: Duplicate map name 'foo'
+- epubsample057.epub : assertion failed: The id attribute on the map element must have the same value as the name attribute.
+- epubsample058.epub : report: A select element whose multiple attribute is not specified must not have more than one descendant option element with its selected attribute set.
+
 
 
 
@@ -63,4 +74,4 @@ LICENSES
 --------
 The base EPUB file epubsample000.epub is derived from moby-dick (https://code.google.com/p/epub-samples/wiki/SamplesListing#moby-dick), so the license of EPUB files in this repository are CC BY-SA 3.0.
 
-poignant-guide_chapter-1-introducing.mp3 (in epubsample049) is from "THE SOUNDTRACK TO why's (poignant) guide to ruby" (http://mislav.uniqpath.com/poignant-guide/soundtrack/). The license of this file is CC BY-SA 2.5. (http://creativecommons.org/licenses/by-sa/2.5/)
+poignant-guide_chapter-1-introducing.mp3 (in epubsample000_mo and epubsample049, epubsample050) is from "THE SOUNDTRACK TO why's (poignant) guide to ruby" (http://mislav.uniqpath.com/poignant-guide/soundtrack/). The license of this file is CC BY-SA 2.5. (http://creativecommons.org/licenses/by-sa/2.5/)
