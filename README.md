@@ -66,6 +66,18 @@ files and error messages
 - epubsample056.epub : assertion failed: Duplicate map name 'foo'
 - epubsample057.epub : assertion failed: The id attribute on the map element must have the same value as the name attribute.
 - epubsample058.epub : report: A select element whose multiple attribute is not specified must not have more than one descendant option element with its selected attribute set.
+- epubsample059.epub : assertion failed: The ev:observer attribute must refer to an element in the same document (the ID 'hidden' does not exist).
+- epubsample060.epub : assertion failed: The aria-owns attribute must refer to elements in the same document (target ID missing)
+- epubsample061.epub : assertion failed: The for attribute does not refer to an allowed target element (expecting: button|keygen|meter|output|progress|select|textarea|input[not(@type='hidden')]).
+- epubsample062.epub : element "epub:trigger" missing required attribute "ev:observer"
+- epubsample063.epub : report: The button element must not appear inside button elements.
+- epubsample064.epub : assertion failed: The area element must have an ancestor map element.
+- epubsample065.epub : Undefined property: foo
+- epubsample066.epub : Undecleared prefix: foo
+- epubsample067.epub : report: The ssml:ph attribute must not be specified on a descendant of an element that also carries this attribute.
+- epubsample068.epub : The 'direction' property must not be included in an EPUB Style Sheet.
+- epubsample069.epub : The fixed value of the position property is not part of the EPUB 3 CSS Profile.
+
 
 
 
